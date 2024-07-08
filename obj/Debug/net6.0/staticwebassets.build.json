@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "59xuQwtA+8ocqtcJxOpvbt+ACrGoSwq8RDiCi72zaV8=",
+  "Source": "PipelineTest_Api",
+  "BasePath": "_content/PipelineTest_Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
