@@ -21,8 +21,8 @@ jobs:
       - name: Restore
         run: dotnet restore ./PipelineTest_Api.sln
 
-      - name: Buil
-        run: dotnet buikd ./PipelineTest_Api.sln --configuration Release --no-restore
+      - name: Build
+        run: dotnet build ./PipelineTest_Api.sln --configuration Release --no-restore
 
       - name: Publish
         run: dotnet publish ./PipelineTest_Api.sln --configuration Release --no-build
