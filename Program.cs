@@ -7,7 +7,7 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+//Test pipeline
 app.UseHttpsRedirection();
 
 app.MapGet("time/utc", () => Results.Ok(DateTime.UtcNow));
